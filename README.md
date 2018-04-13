@@ -1,11 +1,6 @@
 Psychedelicraft
 ============
-
-[![Build Status](https://drone.io/github.com/Ivorforce/Psychedelicraft/status.png)](https://drone.io/github.com/Ivorforce/Psychedelicraft/latest)
-![Curse Version](http://cf.way2muchnoise.eu/versions/224601_latest.svg)
-![Curse Downloads](http://cf.way2muchnoise.eu/full_224601_downloads.svg)
-
-[Download](https://mods.curse.com/mc-mods/minecraft/224601-psychedelicraft) | [Wiki](http://minecraft-psychedelicraft.wikia.com) | [Forum](http://www.minecraftforum.net/topic/563257-172-ivorius-mods-drugs-statues-flags-boxes-of-doom-hamsters/) 
+A continuation of Psychedelicraft for 1.7.10
 
 Contributing
 ============
