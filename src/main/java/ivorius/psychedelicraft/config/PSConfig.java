@@ -44,6 +44,7 @@ public class PSConfig
     public static boolean farmerDrugDeals;
 
     public static int dryingTableTickDuration;
+    public static int ironDryingTableTickDuration;
 
     public static final Map<String, Boolean> drugBGM = new HashMap<>();
 
@@ -78,7 +79,7 @@ public class PSConfig
             randomTicksUntilRiftSpawn = config.get(CATEGORY_BALANCING, "randomTicksUntilRiftSpawn", MINUTE * 180, "Approximate number of ticks until a rift spawns. Enter a negative number to disable.").getInt();
 
             enableHarmonium = config.get(CATEGORY_BALANCING, "enableHarmonium", false).getBoolean();
-            enableRiftJars = config.get(CATEGORY_BALANCING, "enableRiftJars", true).getBoolean();
+            enableRiftJars = config.get(CATEGORY_BALANCING, "enableRiftJars", false).getBoolean();
 
             genJuniper = config.get(CATEGORY_BALANCING, "generateJuniper", true).getBoolean();
             genCannabis = config.get(CATEGORY_BALANCING, "generateCannabis", true).getBoolean();
@@ -94,6 +95,7 @@ public class PSConfig
             farmerDrugDeals = config.get(CATEGORY_BALANCING, "farmerDrugDeals", true).getBoolean();
 
             dryingTableTickDuration = config.get(CATEGORY_BALANCING, "dryingTableTickDuration", MINUTE * 16, "Time until plants in the drying table finish the drying process.").getInt();
+            ironDryingTableTickDuration = config.get(CATEGORY_BALANCING, "ironDryingTableTickDuration", MINUTE * 12, "Time until plants in the iron drying table finish the drying process.").getInt();
 
             readTickInfo(alcInfoWheatHop, "wheatHop", MINUTE * 30, MINUTE * 60, MINUTE * 100, MINUTE * 30, config);
             readTickInfo(alcInfoWheat, "wheat", MINUTE * 40, MINUTE * 40, MINUTE * 30, MINUTE * 30, config);

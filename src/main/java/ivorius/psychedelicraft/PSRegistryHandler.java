@@ -84,18 +84,23 @@ public class PSRegistryHandler
         GameRegistry.registerItem(bong, "bong", Psychedelicraft.MODID);
         bong.setCreativeTab(Psychedelicraft.creativeTab);
 
-        dryingTable = new BlockDryingTable().setHardness(1.0f).setBlockName("dryingTable").setBlockTextureName(modBase + "dryingTable");
+        dryingTable = new BlockDryingTable().setHardness(2.0f).setBlockName("dryingTable").setBlockTextureName(modBase + "dryingTable");
         dryingTable.setCreativeTab(Psychedelicraft.creativeTab);
         GameRegistry.registerBlock(dryingTable, "dryingTable");
         GameRegistry.registerTileEntityWithAlternatives(TileEntityDryingTable.class, "ygcDryingTable", "dryingTable");
 
-        barrel = new BlockBarrel().setHardness(1.0F).setBlockName("psBarrel").setBlockTextureName(modBase + "barrel");
+        dryingTableIron = new BlockIronDryingTable().setHardness(5.0f).setBlockName("ironDryingTable").setBlockTextureName(modBase + "dryingTableIron");
+        dryingTableIron.setCreativeTab(Psychedelicraft.creativeTab);
+        GameRegistry.registerBlock(dryingTableIron, "ironDryingTable");
+        GameRegistry.registerTileEntityWithAlternatives(TileEntityDryingTable.class, "ygcIronDryingTable", "ironDryingTable");
+
+        barrel = new BlockBarrel().setHardness(2.0F).setBlockName("psBarrel").setBlockTextureName(modBase + "barrel");
         barrel.setCreativeTab(Psychedelicraft.drinksTab);
         GameRegistry.registerBlock(barrel, ItemBarrel.class, "barrel");
         GameRegistry.registerTileEntityWithAlternatives(TileEntityBarrel.class, "ygcBarrel", "barrel");
         itemBarrel = (ItemBarrel) Item.getItemFromBlock(barrel);
 
-        mashTub = new BlockMashTub().setHardness(1.0F).setBlockName("psMashTub");
+        mashTub = new BlockMashTub().setHardness(2.0F).setBlockName("psMashTub");
         mashTub.setCreativeTab(Psychedelicraft.drinksTab);
         GameRegistry.registerBlock(mashTub, ItemMashTub.class, "mash_tub");
         GameRegistry.registerTileEntityWithAlternatives(TileEntityMashTub.class, "ygcMashTub");

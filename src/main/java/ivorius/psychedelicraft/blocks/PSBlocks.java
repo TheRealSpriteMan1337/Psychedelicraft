@@ -17,6 +17,7 @@ public class PSBlocks
     public static Block distillery;
 
     public static Block dryingTable;
+    public static Block dryingTableIron;
 
     public static Block cannabisPlant;
     public static Block hopPlant;

@@ -97,6 +97,7 @@ public class PSCrafting
         }
 
         addRecipe(new ItemStack(dryingTable), "###", "#R#", '#', DC_PLANK_WOOD, 'R', DC_REDSTONE_DUST);
+        addRecipe(new ItemStack(dryingTableIron), "#I#", "IRI", '#', DC_PLANK_WOOD, 'R', DC_REDSTONE_DUST, 'I', DC_IRON_INGOT);
 
         DryingRegistry.addDryingResult(DC_LEAF_CANNABIS, new ItemStack(driedCannabisLeaves, 3));
         DryingRegistry.addDryingResult(DC_BUD_CANNABIS, new ItemStack(driedCannabisBuds, 3));

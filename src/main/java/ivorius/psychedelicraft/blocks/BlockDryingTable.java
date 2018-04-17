@@ -15,13 +15,11 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.IIcon;
 import net.minecraft.world.World;
 
-public class BlockDryingTable extends Block
-{
+public class BlockDryingTable extends Block {
     public IIcon bottomIcon;
     public IIcon topIcon;
 
-    public BlockDryingTable()
-    {
+    public BlockDryingTable() {
         super(Material.wood);
 
         setBlockBounds(0.0f, 0.0f, 0.0f, 1.0f, 0.75f, 1.0f);
@@ -29,14 +27,12 @@ public class BlockDryingTable extends Block
     }
 
     @Override
-    public boolean isOpaqueCube()
-    {
+    public boolean isOpaqueCube() {
         return false;
     }
 
     @Override
-    public void registerBlockIcons(IIconRegister par1IconRegister)
-    {
+    public void registerBlockIcons(IIconRegister par1IconRegister) {
         super.registerBlockIcons(par1IconRegister);
 
         bottomIcon = par1IconRegister.registerIcon(Psychedelicraft.modBase + "dryingTableBottom");
@@ -44,14 +40,11 @@ public class BlockDryingTable extends Block
     }
 
     @Override
-    public IIcon getIcon(int par1, int par2)
-    {
-        if (par1 == 0)
-        {
+    public IIcon getIcon(int par1, int par2) {
+        if (par1 == 0) {
             return bottomIcon;
         }
-        if (par1 == 1)
-        {
+        if (par1 == 1) {
             return topIcon;
         }
 
@@ -59,10 +52,8 @@ public class BlockDryingTable extends Block
     }
 
     @Override
-    public boolean onBlockActivated(World par1World, int par2, int par3, int par4, EntityPlayer par5EntityPlayer, int par6, float par7, float par8, float par9)
-    {
-        if (!par1World.isRemote)
-        {
+    public boolean onBlockActivated(World par1World, int par2, int par3, int par4, EntityPlayer par5EntityPlayer, int par6, float par7, float par8, float par9) {
+        if (!par1World.isRemote) {
             par5EntityPlayer.openGui(Psychedelicraft.instance, PSGuiHandler.dryingTableContainerID, par1World, par2, par3, par4);
         }
 
@@ -70,14 +61,12 @@ public class BlockDryingTable extends Block
     }
 
     @Override
-    public boolean hasTileEntity(int metadata)
-    {
+    public boolean hasTileEntity(int metadata) {
         return true;
     }
 
     @Override
-    public TileEntity createTileEntity(World var1, int var2)
-    {
+    public TileEntity createTileEntity(World var1, int var2) {
         return new TileEntityDryingTable();
     }
 }

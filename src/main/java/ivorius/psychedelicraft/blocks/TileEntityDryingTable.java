@@ -61,7 +61,8 @@ public class TileEntityDryingTable extends TileEntity implements ISidedInventory
 
         if (plannedResult != null)
         {
-            dryingProgress += heatRatio / (float)PSConfig.dryingTableTickDuration;
+            dryingProgress += heatRatio / (float)(worldObj.getBlock(xCoord, yCoord, zCoord).equals(PSBlocks.dryingTableIron)
+                    ? PSConfig.ironDryingTableTickDuration : PSConfig.dryingTableTickDuration);
 
             if (dryingProgress >= 1.0f && !worldObj.isRemote)
                 endDryingProcess();

@@ -72,7 +72,7 @@ public class ContainerDryingTable extends Container
     public boolean canInteractWith(EntityPlayer player)
     {
         Block id = this.worldObj.getBlock(tileEntityDryingTable.xCoord, tileEntityDryingTable.yCoord, tileEntityDryingTable.zCoord);
-        return id == PSBlocks.dryingTable && player.getDistanceSq(tileEntityDryingTable.xCoord + 0.5D, tileEntityDryingTable.yCoord + 0.5D, tileEntityDryingTable.zCoord + 0.5D) <= 64.0D;
+        return (id == PSBlocks.dryingTable || id == PSBlocks.dryingTableIron) && player.getDistanceSq(tileEntityDryingTable.xCoord + 0.5D, tileEntityDryingTable.yCoord + 0.5D, tileEntityDryingTable.zCoord + 0.5D) <= 64.0D;
     }
 
     @Override

@@ -167,7 +167,7 @@ public class PSEventFMLHandler
             event.player.triggerAchievement(PSAchievementList.sugarcaneWash);
         }
 
-        if (event.crafting.isItemEqual(new ItemStack(PSBlocks.dryingTable)))
+        if (event.crafting.isItemEqual(new ItemStack(PSBlocks.dryingTable)) || event.crafting.isItemEqual(new ItemStack(PSBlocks.dryingTableIron)))
         {
             event.player.triggerAchievement(PSAchievementList.madeDryingTable);
         }
