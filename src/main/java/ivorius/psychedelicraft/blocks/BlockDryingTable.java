@@ -20,7 +20,11 @@ public class BlockDryingTable extends Block {
     public IIcon topIcon;
 
     public BlockDryingTable() {
-        super(Material.wood);
+        this(Material.wood);
+    }
+
+    public BlockDryingTable(Material mat) {
+        super(mat);
 
         setBlockBounds(0.0f, 0.0f, 0.0f, 1.0f, 0.75f, 1.0f);
         this.setLightOpacity(0);
