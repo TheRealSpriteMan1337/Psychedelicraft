@@ -30,7 +30,7 @@ group= "ivorius.psychedelicraft" // http://maven.apache.org/guides/mini/guide-na
 archivesBaseName = "Psychedelicraft"
 
 minecraft {
-    version = "1.7.10-10.13.4.1614-1.7.10"
+    version = "1.12.2-14.23.5.2859-1.12.2"
     runDir = "eclipse"
 }
 
@@ -69,7 +69,7 @@ idea {
 idea.module.inheritOutputDirs = true
 
 dependencies {
-    provided 'ivorius.ivtoolkit:IvToolkit:1.2:dev'
+    provided 'ivorius.ivtoolkit:IvToolkit:1.3.3'
 }
 
 processResources
@@ -110,8 +110,8 @@ runServer {
     jvmArgs '-Dfml.coreMods.load=ivorius.psychedelicraftcore.PsychedelicraftLoadingPlugin'
 }
 
-sourceCompatibility = 1.7
-targetCompatibility = 1.7
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 task sourceJar(type: Jar) {
     from sourceSets.main.allSource
