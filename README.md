@@ -1,6 +1,6 @@
 Psychedelicraft
 ============
-A continuation of Psychedelicraft for 1.7.10
+A continuation of Psychedelicraft for 1.12.2
 
 Contributing
 ============
