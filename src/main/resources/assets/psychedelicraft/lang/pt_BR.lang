@@ -36,7 +36,7 @@ item.coffeeBeans.name=Sementes de café
 tile.peyote.name=Peiote
 item.driedPeyote.name=Peiote seco
 item.jointPeyote.name=Cigarro de peiote
-tile.riftJar.name=Jarro de Rift
+tile.riftJar.name=Jarro para anomalias
 item.riftJar.empty=Vazio
 item.riftJar.slightlyFilled=Pouco cheio
 item.riftJar.halfFilled=Metade cheio
@@ -103,7 +103,7 @@ item.harmonium.dye13.name=Harmônio magenta
 item.harmonium.dye14.name=Harmônio laranja
 item.harmonium.dye15.name=Harmônio branco
 
-entity.realityRift.name=Zero Rift
+entity.realityRift.name=Anomalia Zero
 
 tile.bed.onDrugs=As drogas no seu corpo te deixam acordado
 
@@ -260,7 +260,7 @@ achievement.drankMatureBeer.desc=Beba cerveja de, no mínimo, 7 DM.
 
 achievement.grapes=Gostoso
 achievement.grapes.desc=Encontre umas uvas
-achievement.grapeWash=Bom suco
+achievement.grapeWash=Suco bom
 achievement.grapeWash.desc=Amasse um suco de uva
 achievement.drankWine=Elegante
 achievement.drankWine.desc=Beba vinho.
