@@ -1,5 +1,5 @@
 item.smokingPipe.name=Cachimbo
-item.bong.name=Bongo
+item.bong.name=Bong
 item.wineGrapes.name=Uvas para vinho
 tile.wineGrapeLattice.name=Treliça de madeira
 tile.cannabisPlant.name=Planta de cânabis
@@ -36,7 +36,7 @@ item.coffeeBeans.name=Sementes de café
 tile.peyote.name=Peiote
 item.driedPeyote.name=Peiote seco
 item.jointPeyote.name=Cigarro de peiote
-tile.riftJar.name=Jarro de "Rift"
+tile.riftJar.name=Jarro de Rift
 item.riftJar.empty=Vazio
 item.riftJar.slightlyFilled=Pouco cheio
 item.riftJar.halfFilled=Metade cheio
@@ -44,9 +44,9 @@ item.riftJar.full=Cheio
 item.riftJar.overflowing=Vazando
 tile.glitched.name=Bloco $__0
 tile.psFlask.name=Frasco
-tile.psFlask.full.name=Frasco de %s
-tile.psDistillery.name=Distillery
-tile.psDistillery.full.name=Distillery (Filled with %s)
+tile.psFlask.full.name=Frasco com %s
+tile.psDistillery.name=Destilaria
+tile.psDistillery.full.name=Distilaria (Cheia de %s)
 tile.hopPlant.name=Lúpulo
 item.hopSeeds.name=Sementes de lúpulo
 item.hopCones.name=Cones de lúpulo
@@ -55,20 +55,20 @@ tile.bottleRack.name=Porta-garrafas
 container.bottleRack=Porta-garrafas
 
 item.woodenMug.name=Caneca de madeira
-item.woodenMug.full.name=Caneca de madeira %s cheia
+item.woodenMug.full.name=Caneca de madeira com %s
 
-item.glassChalice.name=Glass Chalice
-item.glassChalice.full.name=Glass Chalice of %s
+item.glassChalice.name=Cálice de vidro
+item.glassChalice.full.name=Cálice de vidro com %s
 
-item.stoneCup.name=Cup
-item.stoneCup.full.name=Cup of %s
+item.stoneCup.name=Copo
+item.stoneCup.full.name=Copo com %s
 
-item.pscBottle.name=Bottle
-item.pscBottle.full.name=Bottle of %s
+item.pscBottle.name=Garrafa
+item.pscBottle.full.name=Garrafa de %s
 
 item.molotovCocktail.name=Coquetel molotov
 item.molotovCocktail.empty.name=Coquetel molotov vazio
-item.molotovCocktail.quality0.name=Coquetel molotov \inútel
+item.molotovCocktail.quality0.name=Coquetel molotov inútel
 item.molotovCocktail.quality1.name=Coquetel molotov terrível
 item.molotovCocktail.quality2.name=Coquetel molotov ruim
 item.molotovCocktail.quality3.name=Coquetel molotov decente
@@ -79,47 +79,47 @@ item.molotovCocktail.quality7.name=Coquetel molotov surreal
 entity.molotovCocktail.name=Coquetel molotov
 
 tile.psBarrel.name=Barril
-tile.psBarrel.full.name=Barril %s cheio
-tile.psMashTub.name=Cuba de madeira
-tile.psMashTub.full.name=Cuba de madeira (%s)
+tile.psBarrel.full.name=Barril com %s
+tile.psMashTub.name=Tina de madeira
+tile.psMashTub.full.name=Tina de madeira (%s)
 
 item.syringe.name=Seringa
-item.syringe.full.name=Seringa - %s
+item.syringe.full.name=Seringa com %s
 
-item.harmonium.dye0.name=Black Harmonium
-item.harmonium.dye1.name=Red Harmonium
-item.harmonium.dye2.name=Green Harmonium
-item.harmonium.dye3.name=Brown Harmonium
-item.harmonium.dye4.name=Blue Harmonium
-item.harmonium.dye5.name=Purple Harmonium
-item.harmonium.dye6.name=Cyan Harmonium
-item.harmonium.dye7.name=Silver Harmonium
-item.harmonium.dye8.name=Gray Harmonium
-item.harmonium.dye9.name=Pink Harmonium
-item.harmonium.dye10.name=Lime Harmonium
-item.harmonium.dye11.name=Yellow Harmonium
-item.harmonium.dye12.name=Light Blue Harmonium
-item.harmonium.dye13.name=Magenta Harmonium
-item.harmonium.dye14.name=Orange Harmonium
-item.harmonium.dye15.name=White Harmonium
+item.harmonium.dye0.name=Harmônio preto
+item.harmonium.dye1.name=Harmônio vermelho
+item.harmonium.dye2.name=Harmônio verde-escuro
+item.harmonium.dye3.name=Harmônio marrom
+item.harmonium.dye4.name=Harmônio azul
+item.harmonium.dye5.name=Harmônio roxo
+item.harmonium.dye6.name=Harmônio ciano
+item.harmonium.dye7.name=Harmônio prata
+item.harmonium.dye8.name=Harmônio cinza
+item.harmonium.dye9.name=Harmônio rosa
+item.harmonium.dye10.name=Harmônio verde-claro
+item.harmonium.dye11.name=Harmônio amarelo
+item.harmonium.dye12.name=Harmônio azul-claro
+item.harmonium.dye13.name=Harmônio magenta
+item.harmonium.dye14.name=Harmônio laranja
+item.harmonium.dye15.name=Harmônio branco
 
 entity.realityRift.name=Zero Rift
 
 tile.bed.onDrugs=As drogas no seu corpo te deixam acordado
 
-death.attack.alcoholPoisoning=%1$s morreu de intoxicação alcoólica
-death.attack.stroke=%1$s teve um infarto
+death.attack.alcoholPoisoning=%1$s morreu embriagado
+death.attack.stroke=%1$s teve um AVC
 death.attack.heartFailure=O coração de %1$s parou de bater
-death.attack.respiratoryFailure=%1$s teve uma falha respiratória
+death.attack.respiratoryFailure=%1$s teve uma insuficiência respiratória
 
 fluid.psc_slurry=Polpa
 
 fluid.psc_wheat_hop=Mosto de trigo amargo
-fluid.psc_wheat_hop.ferment.1=Meio mosto de trigo amargo
-fluid.psc_wheat_hop.ferment.2=Cerveja verde de trigo
+fluid.psc_wheat_hop.ferment.1=Half wash de trigo amargo
+fluid.psc_wheat_hop.ferment.2=Cerveja de trigo verde
 fluid.psc_wheat_hop.mature=Cerveja de trigo (%d DM)
 fluid.psc_wheat_hop.distill=Cerveja de trigo (%d TD)
-fluid.psc_wheat_hop.dmature=Wheat Beer (%d DM, %d TD)
+fluid.psc_wheat_hop.dmature=Cerveja de trigo (%d DM, %d TD)
 fluid.psc_wheat_hop.vinegar=Vinagre alcoólico amargo
 fluid.psc_wheat=Mosto de trigo
 fluid.psc_wheat.ferment.1=Meio mosto de trigo
@@ -222,17 +222,17 @@ fluid.status.distilling=Distilação
 
 itemGroup.psychedelicraft=Psychedelicraft
 itemGroup.psycheDrinks=Bebidas
-itemGroup.psycheWeapons=Psychedelicraft Armas
+itemGroup.psycheWeapons=Armas do Psychedelicraft
 
 commands.psyche.usage=/psyche spawnRift [x] [y] [z]
 
 commands.drug.usage=/drug <player> <drug> <set|lock|unlock> [value]
-commands.drug.success=%s's %s set to %s
-commands.drug.success.lock=%s's %s locked to %s
-commands.drug.success.unlock=%s's %s unlocked at %s
-commands.drug.nodrug=%s is not a known drug!
+commands.drug.success=%s de %s definido como %s
+commands.drug.success.lock=%s de %s travado em %s
+commands.drug.success.unlock=%s de %s destravado em %s
+commands.drug.nodrug=%s não é uma droga reconhecida!
 
-psychedelicraft.configgui.title=Psychedelicraft Config
+psychedelicraft.configgui.title=Configurações do Psychedelicraft
 psychedelicraft.configgui.ctgy.general=Geral
 psychedelicraft.configgui.ctgy.general.tooltip=Configurações gerais
 psychedelicraft.configgui.ctgy.balancing=Balanceamento
@@ -244,7 +244,7 @@ psychedelicraft.configgui.ctgy.audio.tooltip=Configurações puramente auditivas
 
 recipe.action.pour=Derramar %s
 
-achievement.madeMashTub=Get mashin'
+achievement.madeMashTub=Amasse!
 achievement.madeMashTub.desc=Make a mash tub
 achievement.madeDistillery=Hora de... destilar
 achievement.madeDistillery.desc=Faça uma destiladora
@@ -261,17 +261,17 @@ achievement.drankMatureBeer.desc=Beba cerveja de, no mínimo, 7 DM.
 achievement.grapes=Gostoso
 achievement.grapes.desc=Encontre umas uvas
 achievement.grapeWash=Bom suco
-achievement.grapeWash.desc=Amasse suco de uva
+achievement.grapeWash.desc=Amasse um suco de uva
 achievement.drankWine=Elegante
-achievement.drankWine.desc=Beba vinho
+achievement.drankWine.desc=Beba vinho.
 achievement.drankWineBrandy=Grogue
-achievement.drankWineBrandy.desc=Beba aguardente de vinho
+achievement.drankWineBrandy.desc=Beba brande de vinho
 
 achievement.sugarcaneWash=Melhor que livros
-achievement.sugarcaneWash.desc=Amasse mosto de cana-de-açúcar
+achievement.sugarcaneWash.desc=Amasse um mosto de cana-de-açúcar
 achievement.drankBasi=Seja nosso
 achievement.drankBasi.desc=Beba um pouco de basi
-achievement.drankRum=Yar har har
+achievement.drankRum=Yar-har-har
 achievement.drankRum.desc=Beba um pouco de rum
 
 achievement.madeDryingTable=Vamos secar
