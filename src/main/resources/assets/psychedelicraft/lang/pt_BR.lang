@@ -108,23 +108,23 @@ entity.realityRift.name=Anomalia Zero
 tile.bed.onDrugs=As drogas no seu corpo te deixam acordado
 
 death.attack.alcoholPoisoning=%1$s morreu embriagado
-death.attack.stroke=%1$s teve um AVC
+death.attack.stroke=%1$s teve um derrame
 death.attack.heartFailure=O coração de %1$s parou de bater
 death.attack.respiratoryFailure=%1$s teve uma insuficiência respiratória
 
 fluid.psc_slurry=Polpa
 
 fluid.psc_wheat_hop=Mosto de trigo amargo
-fluid.psc_wheat_hop.ferment.1=Half wash de trigo amargo
-fluid.psc_wheat_hop.ferment.2=Cerveja de trigo verde
+fluid.psc_wheat_hop.ferment.1=Mosto de trigo amargo semi-fermentado
+fluid.psc_wheat_hop.ferment.2=Cerveja de trigo jovem
 fluid.psc_wheat_hop.mature=Cerveja de trigo (%d DM)
 fluid.psc_wheat_hop.distill=Cerveja de trigo (%d TD)
 fluid.psc_wheat_hop.dmature=Cerveja de trigo (%d DM, %d TD)
 fluid.psc_wheat_hop.vinegar=Vinagre alcoólico amargo
 fluid.psc_wheat=Mosto de trigo
-fluid.psc_wheat.ferment.1=Meio mosto de trigo
-fluid.psc_wheat.ferment.2=Mosto de trigo destilado
-fluid.psc_wheat.mature=Wheat Wash (%d DM)
+fluid.psc_wheat.ferment.1=Mosto de trigo semi-fermentado
+fluid.psc_wheat.ferment.2=Mosto de trigo fermentado
+fluid.psc_wheat.mature=Mosto de trigo (%d DM)
 fluid.psc_wheat.distill=Wheat Vodka (%d TD)
 fluid.psc_wheat.dmature=Whisky (%d DM, %d TD)
 fluid.psc_wheat.vinegar=Beer Vinegar
