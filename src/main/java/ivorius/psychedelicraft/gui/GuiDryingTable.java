@@ -55,7 +55,7 @@ public class GuiDryingTable extends GuiContainer
         this.drawTexturedModalRect(var5 + 88, var6 + 34, 176, 42, var7 + 1, 16);
 
         int var8 = (int) (((ContainerDryingTable) this.inventorySlots).tileEntityDryingTable.heatRatio * 20f); //Max 20, sun
-        this.drawTexturedModalRect(var5 + 148, var6 + 6 + (20 - var8), 176, 21 + (20 - var8), 20, var8);
+        this.drawTexturedModalRect(var5 + 148, var6 + 6 + (20 - var8), 176, 21 + (20 - var8), 21, var8);
     }
 
     @Override
