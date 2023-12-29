@@ -10,6 +10,7 @@ public class OreDictionaryConstants
     public static final String DC_BLOCK_GLASS_CLEAR = "blockGlassColorless";
     public static final String DC_GLASS_PANE_CLEAR = "paneGlassColorless";
     public static final String DC_PLANK_WOOD = "plankWood";
+	public static final String DC_SLAB_WOOD = "slabWood";
     public static final String DC_STICK_WOOD = "stickWood";
     public static final String DC_CROP_WHEAT = "cropWheat";
     public static final String DC_POTATO = "cropPotato";
