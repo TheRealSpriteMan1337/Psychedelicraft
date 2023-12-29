@@ -96,8 +96,8 @@ public class PSCrafting
             GameRegistry.addRecipe(new RecipeConvertFluidContainer(new ItemStack(bottle, 1, color), new ItemStack(molotovCocktail, 1, color)));
         }
 
-        addRecipe(new ItemStack(dryingTable), "###", "#R#", '#', DC_PLANK_WOOD, 'R', DC_REDSTONE_DUST);
-        addRecipe(new ItemStack(dryingTableIron), "#I#", "IRI", '#', DC_PLANK_WOOD, 'R', DC_REDSTONE_DUST, 'I', DC_IRON_INGOT);
+        addRecipe(new ItemStack(dryingTable), "###", "WRW", "WWW", '#', DC_SLAB_WOOD, 'W', DC_PLANK_WOOD, 'R', DC_REDSTONE_DUST);
+        addRecipe(new ItemStack(dryingTableIron), "###", "IRI", "III", '#', DC_SLAB_WOOD, 'R', DC_REDSTONE_DUST, 'I', DC_IRON_INGOT);
 
         DryingRegistry.addDryingResult(DC_LEAF_CANNABIS, new ItemStack(driedCannabisLeaves, 3));
         DryingRegistry.addDryingResult(DC_BUD_CANNABIS, new ItemStack(driedCannabisBuds, 3));
@@ -111,8 +111,8 @@ public class PSCrafting
 
         addShapelessRecipe(new ItemStack(cocainePowder), driedCocaLeaves);
 
-        addRecipe(new ItemStack(cigarette, 4), "P", "T", "P", 'P', paper, 'T', DC_DRIED_TOBACCO);
-        addRecipe(new ItemStack(cigar), "TTT", "TTT", "PPP", 'P', paper, 'T', DC_DRIED_TOBACCO);
+        addRecipe(new ItemStack(cigarette), "P", "T", "P", 'P', paper, 'T', DC_DRIED_TOBACCO);
+        addRecipe(new ItemStack(cigar), "PPP", "TTT", "PPP", 'P', paper, 'T', DC_DRIED_TOBACCO);
         DryingRegistry.addDryingResult(DC_LEAF_TOBACCO, new ItemStack(driedTobacco, 3));
         pipe.addConsumable(new ItemSmokingPipe.ItemSmokingPipeConsumable(new ItemStack(driedTobacco), new DrugInfluence[]{new DrugInfluence("Tobacco", 0, 0.1, 0.02, 0.8f)}));
         bong.addConsumable(new ItemBong.ItemBongConsumable(new ItemStack(driedTobacco), new DrugInfluence[]{new DrugInfluence("Tobacco", 0, 0.1, 0.02, 0.6f)})); //TODO: Play around with the bongs benefits
