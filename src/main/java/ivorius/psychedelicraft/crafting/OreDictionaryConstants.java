@@ -12,6 +12,7 @@ public class OreDictionaryConstants
     public static final String DC_PLANK_WOOD = "plankWood";
     public static final String DC_SLAB_WOOD = "slabWood";
     public static final String DC_STICK_WOOD = "stickWood";
+    public static final String DC_COBBLESTONE = "cobblestone";
     public static final String DC_CROP_WHEAT = "cropWheat";
     public static final String DC_POTATO = "cropPotato";
     public static final String DC_REDSTONE_DUST = "dustRedstone";
