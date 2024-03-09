@@ -13,10 +13,8 @@ buildscript {
             url "https://plugins.gradle.org/m2/"
         }
     }
-dependencies {
-    classpath ('com.anatawa12.forge:ForgeGradle:1.2-1.1.+') {
-        changing = true
-        }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
     }
 }
 
@@ -32,7 +30,7 @@ group= "ivorius.psychedelicraft" // http://maven.apache.org/guides/mini/guide-na
 archivesBaseName = "Psychedelicraft"
 
 minecraft {
-    version = "1.7.10-10.13.4.1614-1.7.10"
+    version = "1.12.2-14.23.5.2859-1.12.2"
     runDir = "eclipse"
 }
 
@@ -71,7 +69,7 @@ idea {
 idea.module.inheritOutputDirs = true
 
 dependencies {
-    provided 'ivorius.ivtoolkit:IvToolkit:1.2:dev'
+    provided 'ivorius.ivtoolkit:IvToolkit:1.3.3'
 }
 
 processResources
