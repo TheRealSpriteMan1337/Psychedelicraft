@@ -76,9 +76,9 @@ public class PSCrafting
         addMashTubRecipe(new FluidStack(alcBanana, MASH_TUB_CAPACITY), DC_BANANA, DC_BANANA, DC_BANANA, DC_BANANA, DC_BANANA, DC_BANANA, DC_BANANA, DC_BANANA);
         addMashTubRecipe(new FluidStack(alcMilk, MASH_TUB_CAPACITY), milk_bucket, milk_bucket, milk_bucket, milk_bucket, milk_bucket, milk_bucket, milk_bucket, milk_bucket);
 
-        addRecipe(new ItemStack(glassChalice, 4), "# #", " # ", " # ", '#', DC_BLOCK_GLASS_CLEAR);
-        addRecipe(new ItemStack(woodenMug, 8), "# #", "# #", "###", '#', DC_PLANK_WOOD);
-        addRecipe(new ItemStack(stoneCup, 8), "# #", "# #", "###", '#', clay_ball);
+        addRecipe(new ItemStack(glassChalice, 2), "# #", " # ", "###", '#', DC_BLOCK_GLASS_CLEAR);
+        addRecipe(new ItemStack(woodenMug, 4), "# #", "# #", "###", '#', DC_PLANK_WOOD);
+        addRecipe(new ItemStack(stoneCup, 4), "# #", "# #", "###", '#', cobblestone);
 
         addRecipe(new ItemStack(wineGrapeLattice), "III", "IOI", "OIO", 'I', DC_STICK_WOOD, 'O', DC_PLANK_WOOD);
 
