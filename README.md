@@ -1,6 +1,6 @@
 Psychedelicraft
 ============
-# This branch of Psychedelicraft is no longer supported or maintained. Please use the 1.12.2-STABLE branch instead.
+## This branch of Psychedelicraft is no longer maintained. Please, use the 1.12.2-STABLE branch instead.
 A continuation of Psychedelicraft for 1.7.10.
 
 Contributing
