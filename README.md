@@ -1,18 +1,19 @@
 Psychedelicraft
 ============
-## This branch of Psychedelicraft is no longer maintained. Please, use the 1.12.2-STABLE branch instead.
-A continuation of Psychedelicraft for 1.7.10.
 
-Contributing
+A continuation of Ivorius' Psychedelicraft for 1.12.2. This mod uses shaders and effects, beware.
+
+Guide to Contributing
 ============
 
-Quick guide:
-
-Requires: [Gradle](https://gradle.org), [Java 8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-* gradle setupDecompWorkspace
-* Depending on your IDE:
-  * IntelliJ idea: Import gradle project, then: gradle genIntellijRuns
-  * Eclipse: gradle eclipse
+Requires: [Gradle 8.7](https://gradle.org) and [Java 17+](https://www.azul.com/downloads/?package=jdk#zulu).
+1. Open a `cmd` window.
+* `cd C:\[YOUR INSTALLATION PATH]`
+* `gradlew setupDecompWorkspace`
+* `gradlew build`
+* `gradlew runClient`
 * And you're done!
 
-This mod is written with [Minecraft Forge](http://www.minecraftforge.net/). Visit [its repo](https://github.com/MinecraftForge/MinecraftForge) for detailed setup instructions.
+This mod is written with [Minecraft Forge 14.23.5.2847](http://www.minecraftforge.net/). Visit [its repo](https://github.com/MinecraftForge/MinecraftForge) for detailed setup instructions.
+
+If any bugs are encountered, don't be afraid to make a new **ISSUE**.
