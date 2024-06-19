@@ -1,23 +1,23 @@
 ![Psychedelicraft](https://github.com/TheRealSpriteMan1337/Psychedelicraft/blob/1.12.2-STABLE/src/main/resources/gfx/psychedelicraft/logo.png)
 ============
 
-**The One and Only**, accept <ins>**NO**</ins> substitutes!
+**The One and Only, accept NO substitutes!**
 
 [Wiki](https://github.com/TheRealSpriteMan1337/Psychedelicraft/wiki) **|** [Forum](http://www.minecraftforum.net/topic/563257-172-ivorius-mods-drugs-statues-flags-boxes-of-doom-hamsters/)
 
 ------------
 
-*Have you ever wanted to get Steve or Alex high? Totally hammered? Stoned? Tripping, even? Well, now* <ins>YOU</ins> *can!*
+*Have you ever wanted to get Steve or Alex high? Totally hammered? Stoned? Tripping, even? Well,* <i><ins>NOW YOU CAN!</ins></i>
 
-This mod lets you do so. With shaders, it accomplishes a party of colors on your screen like no other. It doesn't dissappoint.
+Regardless — this mod lets you do so. With shaders, it accomplishes a party of colors on your screen like no other. It doesn't dissappoint.
 
-Now with 1.12.2 support, it can even be paired with your favorite mods!
+Now on Minecraft 1.12.2, it can be paired with other mods. Keep in mind that this mod adds onto Ivorius' 
 
 ------------
 
 Licenses
 ============
-**Licenses to all the software used to make this possible can be found [here](https://github.com/TheRealSpriteMan1337/Psychedelicraft/blob/1.12.2-STABLE/CREDITS).**
+**Licenses to all the resources used to make this possible, including the original Psychedelicraft's, can be found [here](https://github.com/TheRealSpriteMan1337/Psychedelicraft/blob/1.12.2-STABLE/CREDITS).**
 
 Contributing
 ============
