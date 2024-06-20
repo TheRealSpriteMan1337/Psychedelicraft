@@ -1,23 +1,24 @@
 ![Psychedelicraft](https://github.com/TheRealSpriteMan1337/Psychedelicraft/blob/1.12.2-STABLE/src/main/resources/gfx/psychedelicraft/logo.png)
 ============
 
-**The One and Only, accept NO substitutes!**
+**The One and Only. Accept no substitutes!**
 
-[Wiki](https://github.com/TheRealSpriteMan1337/Psychedelicraft/wiki) **|** [Forum](http://www.minecraftforum.net/topic/563257-172-ivorius-mods-drugs-statues-flags-boxes-of-doom-hamsters/)
+![Github Wiki](https://img.shields.io/badge/Github_Wiki-white?logo=github&logoColor=gray&link=https%3A%2F%2Fgithub.com%2FTheRealSpriteMan1337%2FPsychedelicraft%2Fwiki) ![Minecraft Forum Post](https://img.shields.io/badge/Forum-blue?logo=minecraft&logoColor=white&logoSize=auto&labelColor=3C9E3C&link=http%3A%2F%2Fwww.minecraftforum.net%2Ftopic%2F563257-172-ivorius-mods-drugs-statues-flags-boxes-of-doom-hamsters%2F) ![Discord Server](https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white&link=https%3A%2F%2Fdiscord.gg%2FgddfFxqXbH)
 
 ------------
 
-*Have you ever wanted to get Steve or Alex high? Totally hammered? Stoned? Tripping, even? Well,* <i><ins>NOW YOU CAN!</ins></i>
+
+*Have you ever wanted to get Steve or Alex high? Totally hammered? Stoned? Perhaps even stash some drugs in your walls? Well,* <i><ins>NOW YOU CAN!</ins></i>
 
 Regardless — this mod lets you do so. With shaders, it accomplishes a party of colors on your screen like no other. It doesn't dissappoint.
 
-Now on Minecraft 1.12.2, it can be paired with other mods. Keep in mind that this mod adds onto Ivorius' 
+Now on Minecraft 1.12.2, it can be paired with other mods.
 
 ------------
 
 Licenses
 ============
-**Licenses to all the resources used to make this possible, including the original Psychedelicraft's, can be found [here](https://github.com/TheRealSpriteMan1337/Psychedelicraft/blob/1.12.2-STABLE/CREDITS).**
+**Licenses to all the projects that make this possible can be found [here](https://github.com/TheRealSpriteMan1337/Psychedelicraft/blob/1.12.2-STABLE/CREDITS).** This 
 
 Contributing
 ============
